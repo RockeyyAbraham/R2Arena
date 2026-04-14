@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R2Gaming Dashboard</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700;800;900&family=Orbitron:wght@600;700;800&family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-fixed-variant": "#5b5b5b",
+              "on-secondary-container": "#d1d0d0",
+              "surface-container-lowest": "#000000",
+              "tertiary-dim": "#ebebeb",
+              error: "#ff716c",
+              "inverse-on-surface": "#565555",
+              "on-secondary-fixed": "#3f3f3f",
+              "primary-dim": "#2ecc71",
+              "on-surface": "#ffffff",
+              "on-secondary": "#515252",
+              "on-primary-fixed": "#0f3b08",
+              "on-tertiary-container": "#555757",
+              "surface-bright": "#2c2c2c",
+              "secondary-fixed": "#e4e2e2",
+              "surface-tint": "#39FF14",
+              "on-tertiary": "#5e5f60",
+              "surface-container-highest": "#262626",
+              tertiary: "#f9f9f9",
+              "inverse-primary": "#2ecc71",
+              "on-error-container": "#ffa8a3",
+              "tertiary-container": "#ebebeb",
+              outline: "#767575",
+              "tertiary-fixed": "#ffffff",
+              "error-container": "#9f0519",
+              "secondary-dim": "#d5d4d4",
+              surface: "#0e0e0e",
+              "primary-container": "#00ff88",
+              "inverse-surface": "#fcf9f8",
+              "on-error": "#490006",
+              primary: "#39FF14",
+              "surface-variant": "#262626",
+              secondary: "#e4e2e2",
+              "secondary-fixed-dim": "#d5d4d4",
+              "on-primary-container": "#0f3b08",
+              "on-surface-variant": "#adaaaa",
+              "on-tertiary-fixed": "#4f5051",
+              "surface-container-high": "#201f1f",
+              "secondary-container": "#464747",
+              "on-primary-fixed-variant": "#1f5e12",
+              "outline-variant": "#484847",
+              "surface-dim": "#0e0e0e",
+              "surface-container-low": "#131313",
+              background: "#0e0e0e",
+              "tertiary-fixed-dim": "#f0f1f1",
+              "error-dim": "#d7383b",
+              "on-background": "#ffffff",
+              "surface-container": "#1a1919",
+              "on-primary": "#0f3b08",
+              "on-tertiary-fixed-variant": "#6c6d6e",
+              "primary-fixed-dim": "#2ecc71",
+              "primary-fixed": "#00ff88"
+            },
+            borderRadius: {
+              DEFAULT: "0px",
+              lg: "0px",
+              xl: "0px",
+              full: "9999px"
+            },
+            fontFamily: {
+              headline: ["Lexend"],
+              body: ["Space Grotesk"],
+              label: ["Space Grotesk"]
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
