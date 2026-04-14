@@ -1,0 +1,39 @@
+=== R2 Gaming Brainstorming ===
+
+--- Feature Ideas ---
+- In-app tournament brackets that update live
+- "Squad" system for rural teams to build a local identity
+- Achievement badges for "First Win", "Top 10", "Regional Finalist"
+- Profile "Signature" for gaming IDs across multiple titles (Free Fire, BGMI, etc.)
+- SMS notifications for match times (useful for low data users)
+
+--- AI / Future Tech ---
+- Basic performance analysis: "Your early game is strong, but you struggle in late zones"
+- Automated matchmaking that prioritizes local latency over MMR
+- Coaching suggestions based on common mouse/touch movement patterns
+- Identifying hidden talent by cross-referencing stats across multiple local tournaments
+
+--- Monetization ---
+- Entry fees for premium tournaments with larger prize pools
+- Local brand sponsorships (FMCG, mobile shops, local tech brands)
+- Tiered membership: Pro vs. Amateur paths
+- Selling data insights on grassroots trends to larger esports orgs?
+
+--- Expansion ---
+- R2 Academy: A scholarship program for the top 1% of rural players
+- Local streaming hub: Highlighting rural tournaments with local commentary
+- Offline tournament "Kiosks" in semi-urban gaming cafes
+
+--- Risks & Uncertainties ---
+- Will rural players trust an online-only payment/registration system?
+- Mobile gaming dominates; a web-first platform might be ignored (need a mobile app ASAP?)
+- Can we actually prevent cheating without expensive anti-cheat software?
+- Electricity and internet outages during high-stakes matches could kill regular participation
+- Difficulty in verifying user age and identity in remote locations
+
+--- Possible Failure Points ---
+- Burn rate exceeds sponsorship intake too early
+- Platform scalability fails when 500+ users join a bracket at once
+- Lack of local "Hero" players makes the platform feel stagnant
+- Oversaturation from big metropolitan tournaments stealing interest
+- High friction during registration (too many fields, complex UI)

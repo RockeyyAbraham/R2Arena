@@ -1,0 +1,8 @@
+Day 1:
+- created project structure (frontend + backend)
+
+Day 2:
+- developed initial frontend UI
+
+Day 3:
+- set up backend structure (Flask, routes, models)
