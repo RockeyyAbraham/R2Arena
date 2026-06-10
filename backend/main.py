@@ -15,6 +15,7 @@ from flask import Flask, jsonify
 from routes.auth import auth_bp
 from routes.player import player_bp
 from routes.tournament import tournament_bp
+from routes.team import team_bp
 
 # Initialize Flask application
 app = Flask(__name__)
@@ -23,6 +24,7 @@ app = Flask(__name__)
 app.register_blueprint(auth_bp)
 app.register_blueprint(player_bp)
 app.register_blueprint(tournament_bp)
+app.register_blueprint(team_bp)
 
 @app.route('/api/health', methods=['GET'])
 def health_check():
